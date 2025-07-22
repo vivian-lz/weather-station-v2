@@ -1,2 +1,6 @@
 # weather-station-v2
 To expand on my first weather station product, I am creating a more advanced version that uses PCB design, I2C communication, and STM32/ESP32 microcontrollers.
+
+The first iteration utilizes the ESP32 module as the base microcontroller and a BME280 module as the main chip that senses the temperature, humidity, pressue, and approximate altitude. This PCB has been created but has not yet been assembled or manufactured.
+
+Since circuits that utilize modules often are constrained by size and control over communication, I also wanted to dive deeper into circuit design by creating a device that utilizes the raw IC chips rather than just modules. I am currently in the process of creating the schematic for this device, which utilizes an ESP32 C6FH4 and the raw BME280 IC. In addition, it utilizes USB-C connection with a USB-to-Serial chip for communication as well as a MIC5365 LDO to drop the voltage that enters the USB from 5 to 3.3 V before it enters the ESP32 chip to avoid frying the chip/board. This device also includes a 40 kHz crystal to generate a constant clock signal for the device and a reset button to manually reset the ESP32 if needed. Finally, the device still contains the traditional RGB and the LCD of the original design to display information in different ways.
