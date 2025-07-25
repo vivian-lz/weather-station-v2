@@ -8603,15 +8603,15 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <part name="C2" library="capacitor-wima" library_urn="urn:adsk.eagle:library:116" deviceset="C" device="5/3" package3d_urn="urn:adsk.eagle:package:5433/1" value="100 nF"/>
 <part name="R1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="0204/7" package3d_urn="urn:adsk.eagle:package:23498/2" value="4.7k"/>
 <part name="R2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="0204/7" package3d_urn="urn:adsk.eagle:package:23498/2" value="4.7k"/>
-<part name="U1" library="ESP32-C6FH4 (IC)" deviceset="ESP32-C6FH4" device=""/>
+<part name="ESP32" library="ESP32-C6FH4 (IC)" deviceset="ESP32-C6FH4" device=""/>
 <part name="RGB" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X4" device="" package3d_urn="urn:adsk.eagle:package:22407/2"/>
 <part name="LCD" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X4" device="" package3d_urn="urn:adsk.eagle:package:22407/2"/>
 <part name="BUTTON" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X2" device="" package3d_urn="urn:adsk.eagle:package:22435/2"/>
-<part name="U2" library="MIC5365-3.3YC5-TR" deviceset="MIC5365-3.3YC5-TR" device=""/>
-<part name="CP2102" library="INTERFACE-CP2102-GMR_QFN28_" deviceset="INTERFACE-CP2102-GMR(QFN28)" device=""/>
+<part name="LDO" library="MIC5365-3.3YC5-TR" deviceset="MIC5365-3.3YC5-TR" device=""/>
+<part name="USBTOSERIAL" library="INTERFACE-CP2102-GMR_QFN28_" deviceset="INTERFACE-CP2102-GMR(QFN28)" device=""/>
 <part name="C3" library="capacitor-wima" library_urn="urn:adsk.eagle:library:116" deviceset="C" device="5/2.5" package3d_urn="urn:adsk.eagle:package:5426/1" value="1uF"/>
 <part name="C4" library="capacitor-wima" library_urn="urn:adsk.eagle:library:116" deviceset="C" device="5/2.5" package3d_urn="urn:adsk.eagle:package:5426/1" value="1uF"/>
-<part name="USB" library="10164359-00011LF" deviceset="10164359-00011LF" device=""/>
+<part name="USBC" library="10164359-00011LF" deviceset="10164359-00011LF" device=""/>
 <part name="C5" library="capacitor-wima" library_urn="urn:adsk.eagle:library:116" deviceset="C" device="5/2.5" package3d_urn="urn:adsk.eagle:package:5426/1" value="1uF"/>
 <part name="C6" library="capacitor-wima" library_urn="urn:adsk.eagle:library:116" deviceset="C" device="5/2.5" package3d_urn="urn:adsk.eagle:package:5426/1" value="0.1uF"/>
 <part name="C7" library="capacitor-wima" library_urn="urn:adsk.eagle:library:116" deviceset="C" device="5/2.5" package3d_urn="urn:adsk.eagle:package:5426/1" value="0.1uF"/>
@@ -8620,7 +8620,7 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <part name="R5" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="VMTB60" package3d_urn="urn:adsk.eagle:package:26122/2" value="220"/>
 <part name="R6" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="VMTB60" package3d_urn="urn:adsk.eagle:package:26122/2" value="5.1k"/>
 <part name="R7" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="VMTB60" package3d_urn="urn:adsk.eagle:package:26122/2" value="5.1k"/>
-<part name="Q1" library="special" library_urn="urn:adsk.eagle:library:367" deviceset="XTAL/S" device="" package3d_urn="urn:adsk.eagle:package:26647/2"/>
+<part name="CRYSTAL" library="special" library_urn="urn:adsk.eagle:library:367" deviceset="XTAL/S" device="" package3d_urn="urn:adsk.eagle:package:26647/2"/>
 <part name="C8" library="capacitor-wima" library_urn="urn:adsk.eagle:library:116" deviceset="C" device="5/3" package3d_urn="urn:adsk.eagle:package:5433/1" value="10 pF"/>
 <part name="C9" library="capacitor-wima" library_urn="urn:adsk.eagle:library:116" deviceset="C" device="5/3" package3d_urn="urn:adsk.eagle:package:5433/1" value="10 pF"/>
 <part name="R8" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="VMTB60" package3d_urn="urn:adsk.eagle:package:26122/2" value="10k"/>
@@ -8660,7 +8660,7 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <attribute name="NAME" x="36.6014" y="54.61" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="41.402" y="54.61" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="U1" gate="G$1" x="203.2" y="73.66" smashed="yes">
+<instance part="ESP32" gate="G$1" x="203.2" y="73.66" smashed="yes">
 <attribute name="NAME" x="180.34" y="104.902" size="1.778" layer="95"/>
 <attribute name="VALUE" x="180.34" y="40.64" size="1.778" layer="96"/>
 </instance>
@@ -8676,11 +8676,11 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <attribute name="NAME" x="80.01" y="114.935" size="1.778" layer="95"/>
 <attribute name="VALUE" x="80.01" y="104.14" size="1.778" layer="96"/>
 </instance>
-<instance part="U2" gate="G$1" x="17.78" y="91.44" smashed="yes">
+<instance part="LDO" gate="G$1" x="17.78" y="91.44" smashed="yes">
 <attribute name="NAME" x="7.62" y="97.79" size="1.778" layer="95"/>
 <attribute name="VALUE" x="7.62" y="82.55" size="1.778" layer="96" align="top-left"/>
 </instance>
-<instance part="CP2102" gate="G$1" x="157.48" y="137.16" smashed="yes">
+<instance part="USBTOSERIAL" gate="G$1" x="157.48" y="137.16" smashed="yes">
 <attribute name="NAME" x="139.6713" y="157.5128" size="1.27205" layer="95"/>
 <attribute name="VALUE" x="139.6822" y="119.3622" size="1.27126875" layer="96"/>
 </instance>
@@ -8692,7 +8692,7 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <attribute name="NAME" x="42.164" y="89.281" size="1.778" layer="95"/>
 <attribute name="VALUE" x="42.164" y="84.201" size="1.778" layer="96"/>
 </instance>
-<instance part="USB" gate="G$1" x="91.44" y="139.7" smashed="yes">
+<instance part="USBC" gate="G$1" x="91.44" y="139.7" smashed="yes">
 <attribute name="NAME" x="78.74" y="148.082" size="1.778" layer="95"/>
 <attribute name="VALUE" x="78.74" y="129.54" size="1.778" layer="96"/>
 </instance>
@@ -8728,7 +8728,7 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <attribute name="NAME" x="120.8786" y="133.35" size="1.778" layer="95" rot="R270"/>
 <attribute name="VALUE" x="116.078" y="133.35" size="1.778" layer="96" rot="R270"/>
 </instance>
-<instance part="Q1" gate="G$1" x="132.08" y="96.52" smashed="yes">
+<instance part="CRYSTAL" gate="G$1" x="132.08" y="96.52" smashed="yes">
 <attribute name="NAME" x="127" y="100.33" size="1.778" layer="95"/>
 <attribute name="VALUE" x="127" y="91.44" size="1.778" layer="96"/>
 </instance>
@@ -8803,7 +8803,7 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <wire x1="96.52" y1="68.58" x2="109.22" y2="68.58" width="0.1524" layer="91"/>
 <junction x="109.22" y="68.58"/>
 <pinref part="C4" gate="G$1" pin="1"/>
-<pinref part="U2" gate="G$1" pin="VOUT"/>
+<pinref part="LDO" gate="G$1" pin="VOUT"/>
 <wire x1="40.64" y1="91.44" x2="40.64" y2="93.98" width="0.1524" layer="91"/>
 <wire x1="40.64" y1="93.98" x2="33.02" y2="93.98" width="0.1524" layer="91"/>
 <wire x1="40.64" y1="93.98" x2="58.42" y2="93.98" width="0.1524" layer="91"/>
@@ -8811,17 +8811,17 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <junction x="40.64" y="93.98"/>
 <wire x1="58.42" y1="71.12" x2="96.52" y2="71.12" width="0.1524" layer="91"/>
 <junction x="96.52" y="71.12"/>
-<pinref part="U1" gate="G$1" pin="VDDPST2"/>
-<pinref part="U1" gate="G$1" pin="VDDA3P3"/>
+<pinref part="ESP32" gate="G$1" pin="VDDPST2"/>
+<pinref part="ESP32" gate="G$1" pin="VDDA3P3"/>
 <wire x1="231.14" y1="91.44" x2="231.14" y2="93.98" width="0.1524" layer="91"/>
-<pinref part="U1" gate="G$1" pin="VDDPST1"/>
+<pinref part="ESP32" gate="G$1" pin="VDDPST1"/>
 <wire x1="231.14" y1="93.98" x2="231.14" y2="96.52" width="0.1524" layer="91"/>
 <junction x="231.14" y="93.98"/>
-<pinref part="U1" gate="G$1" pin="VDDA1"/>
+<pinref part="ESP32" gate="G$1" pin="VDDA1"/>
 <wire x1="231.14" y1="96.52" x2="231.14" y2="99.06" width="0.1524" layer="91"/>
 <wire x1="231.14" y1="99.06" x2="231.14" y2="101.6" width="0.1524" layer="91"/>
 <junction x="231.14" y="99.06"/>
-<pinref part="U1" gate="G$1" pin="VDDA2"/>
+<pinref part="ESP32" gate="G$1" pin="VDDA2"/>
 <junction x="231.14" y="96.52"/>
 <wire x1="231.14" y1="101.6" x2="231.14" y2="111.76" width="0.1524" layer="91"/>
 <junction x="231.14" y="101.6"/>
@@ -8847,7 +8847,7 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <wire x1="12.7" y1="2.54" x2="236.22" y2="2.54" width="0.1524" layer="91"/>
 <junction x="12.7" y="48.26"/>
 <wire x1="236.22" y1="2.54" x2="236.22" y2="55.88" width="0.1524" layer="91"/>
-<pinref part="U1" gate="G$1" pin="SDIO_DATA2/GPIO22"/>
+<pinref part="ESP32" gate="G$1" pin="SDIO_DATA2/GPIO22"/>
 <wire x1="236.22" y1="55.88" x2="231.14" y2="55.88" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -8866,11 +8866,11 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <pinref part="C2" gate="G$1" pin="2"/>
 <wire x1="88.9" y1="43.18" x2="88.9" y2="38.1" width="0.1524" layer="91"/>
 <junction x="88.9" y="38.1"/>
-<pinref part="U1" gate="G$1" pin="GND"/>
+<pinref part="ESP32" gate="G$1" pin="GND"/>
 <wire x1="231.14" y1="45.72" x2="231.14" y2="27.94" width="0.1524" layer="91"/>
 <wire x1="231.14" y1="27.94" x2="114.3" y2="27.94" width="0.1524" layer="91"/>
 <junction x="91.44" y="27.94"/>
-<pinref part="U2" gate="G$1" pin="GND"/>
+<pinref part="LDO" gate="G$1" pin="GND"/>
 <wire x1="114.3" y1="27.94" x2="91.44" y2="27.94" width="0.1524" layer="91"/>
 <wire x1="33.02" y1="86.36" x2="33.02" y2="78.74" width="0.1524" layer="91"/>
 <pinref part="C3" gate="G$1" pin="2"/>
@@ -8885,20 +8885,20 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <wire x1="-5.08" y1="15.24" x2="22.86" y2="15.24" width="0.1524" layer="91"/>
 <junction x="-5.08" y="78.74"/>
 <junction x="91.44" y="15.24"/>
-<pinref part="USB" gate="G$1" pin="GND_A"/>
+<pinref part="USBC" gate="G$1" pin="GND_A"/>
 <wire x1="22.86" y1="15.24" x2="91.44" y2="15.24" width="0.1524" layer="91"/>
 <wire x1="73.66" y1="139.7" x2="66.04" y2="139.7" width="0.1524" layer="91"/>
 <wire x1="66.04" y1="139.7" x2="66.04" y2="127" width="0.1524" layer="91"/>
 <wire x1="66.04" y1="127" x2="114.3" y2="127" width="0.1524" layer="91"/>
 <wire x1="114.3" y1="127" x2="114.3" y2="139.7" width="0.1524" layer="91"/>
-<pinref part="USB" gate="G$1" pin="GND_B"/>
+<pinref part="USBC" gate="G$1" pin="GND_B"/>
 <wire x1="114.3" y1="139.7" x2="109.22" y2="139.7" width="0.1524" layer="91"/>
-<pinref part="CP2102" gate="G$1" pin="GND@1"/>
+<pinref part="USBTOSERIAL" gate="G$1" pin="GND@1"/>
 <wire x1="147.32" y1="157.48" x2="147.32" y2="165.1" width="0.1524" layer="91"/>
 <wire x1="147.32" y1="165.1" x2="66.04" y2="165.1" width="0.1524" layer="91"/>
 <wire x1="66.04" y1="165.1" x2="66.04" y2="160.02" width="0.1524" layer="91"/>
 <junction x="66.04" y="139.7"/>
-<pinref part="CP2102" gate="G$1" pin="GND"/>
+<pinref part="USBTOSERIAL" gate="G$1" pin="GND"/>
 <wire x1="66.04" y1="160.02" x2="66.04" y2="139.7" width="0.1524" layer="91"/>
 <wire x1="137.16" y1="139.7" x2="129.54" y2="139.7" width="0.1524" layer="91"/>
 <junction x="114.3" y="139.7"/>
@@ -8967,26 +8967,26 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <wire x1="20.32" y1="35.56" x2="20.32" y2="-10.16" width="0.1524" layer="91"/>
 <wire x1="20.32" y1="-10.16" x2="241.3" y2="-10.16" width="0.1524" layer="91"/>
 <junction x="20.32" y="35.56"/>
-<pinref part="U1" gate="G$1" pin="SDIO_DATA1/GPIO21"/>
+<pinref part="ESP32" gate="G$1" pin="SDIO_DATA1/GPIO21"/>
 <wire x1="231.14" y1="58.42" x2="241.3" y2="58.42" width="0.1524" layer="91"/>
 <wire x1="241.3" y1="58.42" x2="241.3" y2="-10.16" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$2" class="0">
 <segment>
-<pinref part="U2" gate="G$1" pin="VIN"/>
+<pinref part="LDO" gate="G$1" pin="VIN"/>
 <wire x1="2.54" y1="93.98" x2="-10.16" y2="93.98" width="0.1524" layer="91"/>
 <pinref part="C3" gate="G$1" pin="1"/>
 <wire x1="-10.16" y1="93.98" x2="-10.16" y2="91.44" width="0.1524" layer="91"/>
-<pinref part="USB" gate="G$1" pin="VBUS_A"/>
+<pinref part="USBC" gate="G$1" pin="VBUS_A"/>
 <wire x1="73.66" y1="144.78" x2="73.66" y2="149.86" width="0.1524" layer="91"/>
-<pinref part="USB" gate="G$1" pin="VBUS_B"/>
+<pinref part="USBC" gate="G$1" pin="VBUS_B"/>
 <wire x1="73.66" y1="149.86" x2="109.22" y2="149.86" width="0.1524" layer="91"/>
 <wire x1="109.22" y1="149.86" x2="109.22" y2="144.78" width="0.1524" layer="91"/>
 <wire x1="109.22" y1="144.78" x2="127" y2="144.78" width="0.1524" layer="91"/>
 <wire x1="127" y1="144.78" x2="127" y2="129.54" width="0.1524" layer="91"/>
 <junction x="109.22" y="144.78"/>
-<pinref part="CP2102" gate="G$1" pin="REGIN"/>
+<pinref part="USBTOSERIAL" gate="G$1" pin="REGIN"/>
 <wire x1="127" y1="129.54" x2="132.08" y2="129.54" width="0.1524" layer="91"/>
 <pinref part="C6" gate="G$1" pin="1"/>
 <wire x1="132.08" y1="129.54" x2="137.16" y2="129.54" width="0.1524" layer="91"/>
@@ -8999,7 +8999,7 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <wire x1="137.16" y1="129.54" x2="137.16" y2="111.76" width="0.1524" layer="91"/>
 <wire x1="137.16" y1="111.76" x2="149.86" y2="111.76" width="0.1524" layer="91"/>
 <junction x="137.16" y="129.54"/>
-<pinref part="CP2102" gate="G$1" pin="VBUS"/>
+<pinref part="USBTOSERIAL" gate="G$1" pin="VBUS"/>
 <wire x1="149.86" y1="111.76" x2="149.86" y2="116.84" width="0.1524" layer="91"/>
 <wire x1="-10.16" y1="93.98" x2="-10.16" y2="144.78" width="0.1524" layer="91"/>
 <wire x1="-10.16" y1="144.78" x2="73.66" y2="144.78" width="0.1524" layer="91"/>
@@ -9035,7 +9035,7 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 </net>
 <net name="N$12" class="0">
 <segment>
-<pinref part="USB" gate="G$1" pin="CC1"/>
+<pinref part="USBC" gate="G$1" pin="CC1"/>
 <wire x1="73.66" y1="142.24" x2="58.42" y2="142.24" width="0.1524" layer="91"/>
 <wire x1="58.42" y1="142.24" x2="58.42" y2="139.7" width="0.1524" layer="91"/>
 <pinref part="R6" gate="G$1" pin="1"/>
@@ -9043,7 +9043,7 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 </net>
 <net name="N$13" class="0">
 <segment>
-<pinref part="USB" gate="G$1" pin="CC2"/>
+<pinref part="USBC" gate="G$1" pin="CC2"/>
 <wire x1="109.22" y1="142.24" x2="119.38" y2="142.24" width="0.1524" layer="91"/>
 <wire x1="119.38" y1="142.24" x2="119.38" y2="134.62" width="0.1524" layer="91"/>
 <pinref part="R7" gate="G$1" pin="1"/>
@@ -9051,11 +9051,11 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 </net>
 <net name="N$11" class="0">
 <segment>
-<pinref part="Q1" gate="G$1" pin="1"/>
+<pinref part="CRYSTAL" gate="G$1" pin="1"/>
 <wire x1="127" y1="96.52" x2="121.92" y2="96.52" width="0.1524" layer="91"/>
 <pinref part="C8" gate="G$1" pin="1"/>
 <wire x1="121.92" y1="96.52" x2="121.92" y2="93.98" width="0.1524" layer="91"/>
-<pinref part="U1" gate="G$1" pin="XTAL_P"/>
+<pinref part="ESP32" gate="G$1" pin="XTAL_P"/>
 <wire x1="175.26" y1="78.74" x2="116.84" y2="78.74" width="0.1524" layer="91"/>
 <wire x1="116.84" y1="78.74" x2="116.84" y2="96.52" width="0.1524" layer="91"/>
 <wire x1="116.84" y1="96.52" x2="121.92" y2="96.52" width="0.1524" layer="91"/>
@@ -9065,20 +9065,20 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <net name="N$15" class="0">
 <segment>
 <pinref part="C9" gate="G$1" pin="1"/>
-<pinref part="Q1" gate="G$1" pin="2"/>
+<pinref part="CRYSTAL" gate="G$1" pin="2"/>
 <wire x1="142.24" y1="93.98" x2="142.24" y2="96.52" width="0.1524" layer="91"/>
 <wire x1="142.24" y1="96.52" x2="137.16" y2="96.52" width="0.1524" layer="91"/>
 <wire x1="142.24" y1="96.52" x2="162.56" y2="96.52" width="0.1524" layer="91"/>
 <wire x1="162.56" y1="96.52" x2="162.56" y2="81.28" width="0.1524" layer="91"/>
 <junction x="142.24" y="96.52"/>
-<pinref part="U1" gate="G$1" pin="XTAL_N"/>
+<pinref part="ESP32" gate="G$1" pin="XTAL_N"/>
 <wire x1="162.56" y1="81.28" x2="175.26" y2="81.28" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$3" class="0">
 <segment>
 <pinref part="R8" gate="G$1" pin="2"/>
-<pinref part="U1" gate="G$1" pin="CHIP_PU"/>
+<pinref part="ESP32" gate="G$1" pin="CHIP_PU"/>
 <wire x1="170.18" y1="88.9" x2="170.18" y2="86.36" width="0.1524" layer="91"/>
 <wire x1="170.18" y1="86.36" x2="175.26" y2="86.36" width="0.1524" layer="91"/>
 </segment>
@@ -9088,7 +9088,7 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <pinref part="R3" gate="G$1" pin="1"/>
 <wire x1="17.78" y1="111.76" x2="17.78" y2="20.32" width="0.1524" layer="91"/>
 <wire x1="17.78" y1="20.32" x2="167.64" y2="20.32" width="0.1524" layer="91"/>
-<pinref part="U1" gate="G$1" pin="GPIO9"/>
+<pinref part="ESP32" gate="G$1" pin="GPIO9"/>
 <wire x1="167.64" y1="20.32" x2="167.64" y2="50.8" width="0.1524" layer="91"/>
 <wire x1="167.64" y1="50.8" x2="175.26" y2="50.8" width="0.1524" layer="91"/>
 </segment>
@@ -9098,14 +9098,14 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <pinref part="R5" gate="G$1" pin="1"/>
 <wire x1="17.78" y1="127" x2="17.78" y2="172.72" width="0.1524" layer="91"/>
 <wire x1="17.78" y1="172.72" x2="243.84" y2="172.72" width="0.1524" layer="91"/>
-<pinref part="U1" gate="G$1" pin="GPIO14"/>
+<pinref part="ESP32" gate="G$1" pin="GPIO14"/>
 <wire x1="243.84" y1="172.72" x2="243.84" y2="76.2" width="0.1524" layer="91"/>
 <wire x1="243.84" y1="76.2" x2="231.14" y2="76.2" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$7" class="0">
 <segment>
-<pinref part="U1" gate="G$1" pin="GPIO15"/>
+<pinref part="ESP32" gate="G$1" pin="GPIO15"/>
 <wire x1="231.14" y1="73.66" x2="251.46" y2="73.66" width="0.1524" layer="91"/>
 <wire x1="251.46" y1="73.66" x2="251.46" y2="177.8" width="0.1524" layer="91"/>
 <wire x1="251.46" y1="177.8" x2="10.16" y2="177.8" width="0.1524" layer="91"/>
@@ -9117,13 +9117,13 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <net name="N$5" class="0">
 <segment>
 <pinref part="C7" gate="G$1" pin="2"/>
-<pinref part="CP2102" gate="G$1" pin="VDD"/>
+<pinref part="USBTOSERIAL" gate="G$1" pin="VDD"/>
 <wire x1="137.16" y1="132.08" x2="129.54" y2="132.08" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$6" class="0">
 <segment>
-<pinref part="U2" gate="G$1" pin="EN"/>
+<pinref part="LDO" gate="G$1" pin="EN"/>
 <wire x1="2.54" y1="88.9" x2="2.54" y2="71.12" width="0.1524" layer="91"/>
 <pinref part="R9" gate="G$1" pin="2"/>
 <wire x1="2.54" y1="71.12" x2="-25.4" y2="71.12" width="0.1524" layer="91"/>
