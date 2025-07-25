@@ -8811,6 +8811,25 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <junction x="40.64" y="93.98"/>
 <wire x1="58.42" y1="71.12" x2="96.52" y2="71.12" width="0.1524" layer="91"/>
 <junction x="96.52" y="71.12"/>
+<pinref part="U1" gate="G$1" pin="VDDPST2"/>
+<pinref part="U1" gate="G$1" pin="VDDA3P3"/>
+<wire x1="231.14" y1="91.44" x2="231.14" y2="93.98" width="0.1524" layer="91"/>
+<pinref part="U1" gate="G$1" pin="VDDPST1"/>
+<wire x1="231.14" y1="93.98" x2="231.14" y2="96.52" width="0.1524" layer="91"/>
+<junction x="231.14" y="93.98"/>
+<pinref part="U1" gate="G$1" pin="VDDA1"/>
+<wire x1="231.14" y1="96.52" x2="231.14" y2="99.06" width="0.1524" layer="91"/>
+<wire x1="231.14" y1="99.06" x2="231.14" y2="101.6" width="0.1524" layer="91"/>
+<junction x="231.14" y="99.06"/>
+<pinref part="U1" gate="G$1" pin="VDDA2"/>
+<junction x="231.14" y="96.52"/>
+<wire x1="231.14" y1="101.6" x2="231.14" y2="111.76" width="0.1524" layer="91"/>
+<junction x="231.14" y="101.6"/>
+<wire x1="231.14" y1="111.76" x2="157.48" y2="111.76" width="0.1524" layer="91"/>
+<wire x1="157.48" y1="111.76" x2="157.48" y2="55.88" width="0.1524" layer="91"/>
+<wire x1="157.48" y1="55.88" x2="109.22" y2="55.88" width="0.1524" layer="91"/>
+<wire x1="109.22" y1="55.88" x2="109.22" y2="58.42" width="0.1524" layer="91"/>
+<junction x="109.22" y="58.42"/>
 </segment>
 </net>
 <net name="SCL" class="0">
