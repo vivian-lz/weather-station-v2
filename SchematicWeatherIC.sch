@@ -8625,6 +8625,11 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <part name="C9" library="capacitor-wima" library_urn="urn:adsk.eagle:library:116" deviceset="C" device="5/3" package3d_urn="urn:adsk.eagle:package:5433/1" value="10 pF"/>
 <part name="R8" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="VMTB60" package3d_urn="urn:adsk.eagle:package:26122/2" value="10k"/>
 <part name="R9" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="VMTB60" package3d_urn="urn:adsk.eagle:package:26122/2" value="10k"/>
+<part name="C10" library="capacitor-wima" library_urn="urn:adsk.eagle:library:116" deviceset="C" device="5/3" package3d_urn="urn:adsk.eagle:package:5433/1" value="100 nF"/>
+<part name="C11" library="capacitor-wima" library_urn="urn:adsk.eagle:library:116" deviceset="C" device="5/3" package3d_urn="urn:adsk.eagle:package:5433/1" value="100 nF"/>
+<part name="C12" library="capacitor-wima" library_urn="urn:adsk.eagle:library:116" deviceset="C" device="5/3" package3d_urn="urn:adsk.eagle:package:5433/1" value="100 nF"/>
+<part name="C13" library="capacitor-wima" library_urn="urn:adsk.eagle:library:116" deviceset="C" device="5/3" package3d_urn="urn:adsk.eagle:package:5433/1" value="100 nF"/>
+<part name="C14" library="capacitor-wima" library_urn="urn:adsk.eagle:library:116" deviceset="C" device="5/3" package3d_urn="urn:adsk.eagle:package:5433/1" value="100 nF"/>
 </parts>
 <sheets>
 <sheet>
@@ -8748,6 +8753,26 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <attribute name="NAME" x="-23.9014" y="92.71" size="1.778" layer="95" rot="R270"/>
 <attribute name="VALUE" x="-28.702" y="92.71" size="1.778" layer="96" rot="R270"/>
 </instance>
+<instance part="C10" gate="G$1" x="233.68" y="91.44" smashed="yes" rot="R90">
+<attribute name="NAME" x="233.299" y="92.964" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="238.379" y="92.964" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="C11" gate="G$1" x="233.68" y="93.98" smashed="yes" rot="R90">
+<attribute name="NAME" x="233.299" y="95.504" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="238.379" y="95.504" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="C12" gate="G$1" x="233.68" y="96.52" smashed="yes" rot="R90">
+<attribute name="NAME" x="233.299" y="98.044" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="238.379" y="98.044" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="C13" gate="G$1" x="233.68" y="99.06" smashed="yes" rot="R90">
+<attribute name="NAME" x="233.299" y="100.584" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="238.379" y="100.584" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="C14" gate="G$1" x="233.68" y="101.6" smashed="yes" rot="R90">
+<attribute name="NAME" x="233.299" y="103.124" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="238.379" y="103.124" size="1.778" layer="96" rot="R90"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -8811,25 +8836,27 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <junction x="40.64" y="93.98"/>
 <wire x1="58.42" y1="71.12" x2="96.52" y2="71.12" width="0.1524" layer="91"/>
 <junction x="96.52" y="71.12"/>
-<pinref part="ESP32" gate="G$1" pin="VDDPST2"/>
-<pinref part="ESP32" gate="G$1" pin="VDDA3P3"/>
-<wire x1="231.14" y1="91.44" x2="231.14" y2="93.98" width="0.1524" layer="91"/>
-<pinref part="ESP32" gate="G$1" pin="VDDPST1"/>
-<wire x1="231.14" y1="93.98" x2="231.14" y2="96.52" width="0.1524" layer="91"/>
-<junction x="231.14" y="93.98"/>
-<pinref part="ESP32" gate="G$1" pin="VDDA1"/>
-<wire x1="231.14" y1="96.52" x2="231.14" y2="99.06" width="0.1524" layer="91"/>
-<wire x1="231.14" y1="99.06" x2="231.14" y2="101.6" width="0.1524" layer="91"/>
-<junction x="231.14" y="99.06"/>
-<pinref part="ESP32" gate="G$1" pin="VDDA2"/>
-<junction x="231.14" y="96.52"/>
-<wire x1="231.14" y1="101.6" x2="231.14" y2="111.76" width="0.1524" layer="91"/>
-<junction x="231.14" y="101.6"/>
-<wire x1="231.14" y1="111.76" x2="157.48" y2="111.76" width="0.1524" layer="91"/>
+<wire x1="238.76" y1="111.76" x2="157.48" y2="111.76" width="0.1524" layer="91"/>
 <wire x1="157.48" y1="111.76" x2="157.48" y2="55.88" width="0.1524" layer="91"/>
 <wire x1="157.48" y1="55.88" x2="109.22" y2="55.88" width="0.1524" layer="91"/>
 <wire x1="109.22" y1="55.88" x2="109.22" y2="58.42" width="0.1524" layer="91"/>
 <junction x="109.22" y="58.42"/>
+<pinref part="C10" gate="G$1" pin="2"/>
+<pinref part="C11" gate="G$1" pin="2"/>
+<wire x1="238.76" y1="93.98" x2="238.76" y2="96.52" width="0.1524" layer="91"/>
+<junction x="238.76" y="93.98"/>
+<pinref part="C12" gate="G$1" pin="2"/>
+<wire x1="238.76" y1="96.52" x2="238.76" y2="99.06" width="0.1524" layer="91"/>
+<junction x="238.76" y="96.52"/>
+<pinref part="C13" gate="G$1" pin="2"/>
+<wire x1="238.76" y1="99.06" x2="238.76" y2="101.6" width="0.1524" layer="91"/>
+<junction x="238.76" y="99.06"/>
+<pinref part="C14" gate="G$1" pin="2"/>
+<wire x1="238.76" y1="101.6" x2="238.76" y2="111.76" width="0.1524" layer="91"/>
+<junction x="238.76" y="101.6"/>
+<wire x1="238.76" y1="101.6" x2="238.76" y2="93.98" width="0.1524" layer="91"/>
+<junction x="238.76" y="91.44"/>
+<wire x1="238.76" y1="91.44" x2="238.76" y2="93.98" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="SCL" class="0">
@@ -9128,6 +9155,36 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <pinref part="R9" gate="G$1" pin="2"/>
 <wire x1="2.54" y1="71.12" x2="-25.4" y2="71.12" width="0.1524" layer="91"/>
 <wire x1="-25.4" y1="71.12" x2="-25.4" y2="83.82" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$14" class="0">
+<segment>
+<pinref part="ESP32" gate="G$1" pin="VDDPST2"/>
+<pinref part="C10" gate="G$1" pin="1"/>
+</segment>
+</net>
+<net name="N$16" class="0">
+<segment>
+<pinref part="ESP32" gate="G$1" pin="VDDPST1"/>
+<pinref part="C11" gate="G$1" pin="1"/>
+</segment>
+</net>
+<net name="N$17" class="0">
+<segment>
+<pinref part="ESP32" gate="G$1" pin="VDDA2"/>
+<pinref part="C12" gate="G$1" pin="1"/>
+</segment>
+</net>
+<net name="N$18" class="0">
+<segment>
+<pinref part="ESP32" gate="G$1" pin="VDDA1"/>
+<pinref part="C13" gate="G$1" pin="1"/>
+</segment>
+</net>
+<net name="N$19" class="0">
+<segment>
+<pinref part="ESP32" gate="G$1" pin="VDDA3P3"/>
+<pinref part="C14" gate="G$1" pin="1"/>
 </segment>
 </net>
 </nets>
