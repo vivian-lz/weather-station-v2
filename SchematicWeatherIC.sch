@@ -7854,6 +7854,28 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <pinref part="C14" gate="G$1" pin="1"/>
 </segment>
 </net>
+<net name="N$20" class="0">
+<segment>
+<pinref part="USBTOSERIAL" gate="G$1" pin="D+"/>
+<wire x1="137.16" y1="137.16" x2="121.92" y2="137.16" width="0.1524" layer="91"/>
+<wire x1="121.92" y1="137.16" x2="121.92" y2="106.68" width="0.1524" layer="91"/>
+<wire x1="121.92" y1="106.68" x2="246.38" y2="106.68" width="0.1524" layer="91"/>
+<wire x1="246.38" y1="106.68" x2="246.38" y2="78.74" width="0.1524" layer="91"/>
+<pinref part="ESP32" gate="G$1" pin="USB_D+/GPIO13"/>
+<wire x1="246.38" y1="78.74" x2="231.14" y2="78.74" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$21" class="0">
+<segment>
+<pinref part="ESP32" gate="G$1" pin="USB_D-/GPIO12"/>
+<wire x1="231.14" y1="81.28" x2="248.92" y2="81.28" width="0.1524" layer="91"/>
+<wire x1="248.92" y1="81.28" x2="248.92" y2="109.22" width="0.1524" layer="91"/>
+<wire x1="248.92" y1="109.22" x2="134.62" y2="109.22" width="0.1524" layer="91"/>
+<pinref part="USBTOSERIAL" gate="G$1" pin="D-"/>
+<wire x1="134.62" y1="109.22" x2="134.62" y2="134.62" width="0.1524" layer="91"/>
+<wire x1="134.62" y1="134.62" x2="137.16" y2="134.62" width="0.1524" layer="91"/>
+</segment>
+</net>
 </nets>
 </sheet>
 </sheets>
