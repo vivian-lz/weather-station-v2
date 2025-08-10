@@ -7260,6 +7260,8 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <classes>
 <class number="0" name="default" width="0" drill="0">
 </class>
+<class number="1" name="differential_pair" width="0" drill="0">
+</class>
 </classes>
 <parts>
 <part name="BME280" library="BME280" deviceset="BME280" device=""/>
@@ -7854,7 +7856,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <pinref part="C14" gate="G$1" pin="1"/>
 </segment>
 </net>
-<net name="N$20" class="0">
+<net name="D_P" class="1">
 <segment>
 <pinref part="USBTOSERIAL" gate="G$1" pin="D+"/>
 <wire x1="137.16" y1="137.16" x2="121.92" y2="137.16" width="0.1524" layer="91"/>
@@ -7865,7 +7867,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <wire x1="246.38" y1="78.74" x2="231.14" y2="78.74" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$21" class="0">
+<net name="D_N" class="1">
 <segment>
 <pinref part="ESP32" gate="G$1" pin="USB_D-/GPIO12"/>
 <wire x1="231.14" y1="81.28" x2="248.92" y2="81.28" width="0.1524" layer="91"/>
